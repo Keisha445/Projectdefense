@@ -1,0 +1,95 @@
+/* Global Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+    color: #333; 
+}
+
+/* Navigation Bar */
+.navbar {
+    background: #2c3e50;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+}
+.navbar h1 span {
+    margin: 0;
+    font-size: 24px;
+    color: chartreuse;
+}
+.navbar ul {
+    list-style: none;
+    padding: 0;
+}
+.navbar ul li {
+    display: inline;
+    margin: 0 15px;
+}
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+.navbar ul li a.active {
+    font-weight: bold;
+    border-bottom: 2px solid white;
+}
+
+/* About us section*/
+.about {
+    text-align: center;
+    padding: 60px 20px;
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    color: white;
+}
+.about .conatiner {
+    max-width: 800px;
+    margin: auto;
+}
+.about h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+.about h3 {
+    margin-top: 30px;
+    font-size: 24px;
+}
+.about p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+.about ul {
+    text-align: left;
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+.about ul li {
+    font-size: 19px;
+    margin-bottom: 10px;
+}
+
+/* Footer*/
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #2c3e50;
+    color: white;
+    margin-top: 40px;
+}
+.socialmedia1 ul {
+    display: flex;
+    flex: 1 1 26rem;
+    list-style: none;
+    justify-content: space-between;
+    padding-top: 4rem;
+}
+
+
+
+
+
+
+

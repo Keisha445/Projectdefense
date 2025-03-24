@@ -1,0 +1,39 @@
+/* Help Section Styling */
+.help {
+    background: linear-gradient(135deg, #ff9a9e, #fad0c4, #fad0c4);
+    color: #333;
+    text-align: center;
+    padding: 60px 20px;
+}
+.container {
+    max-width: 900px;
+    margin: auto;
+}
+.help h1 {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+}
+.help p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+.help-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+.help-card {
+    background: white;
+    padding: 20px;
+    width: 250px;
+    border-radius: 8px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s, background 0.3s;
+}
+.help-card:hover {
+    transform: translateY(-5px);
+    background: #f3f3f3;
+}
+
+
