@@ -1,0 +1,131 @@
+/* General Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Navigation Bar */
+.nav-bar {
+    background: linear-gradient(to right, #004e92, #000428);
+    padding: 15px;
+    text-align: center;
+}
+.nav-bar h1 {
+    color: white;
+    margin-bottom: 10px;
+}
+.nav-bar ul {
+    list-style: none;
+    padding: 0;
+}
+.nav-bar ul li {
+    display: inline;
+    margin: 0 15px;
+}
+.nav-bar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: 0.3s;
+}
+.nav-bar ul li a:hover, .nav-bar ul li a.active {
+    color: #ffdd57;
+    font-weight: bold;
+}
+
+/* Contact Section */
+.contact-container {
+    max-width: 800px;
+    margin: 50px auto;
+    text-align: center;
+}
+.contact-container h2 {
+    font-size: 30px;
+    color: #004e92;
+}
+.contact-container p {
+    margin: 10px 0 30px;
+}
+
+/* Contact Info Boxes */
+.contact-info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.info-box {
+    background: #004e92;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 30%;
+    text-align: center;
+    transition: 0.3s;
+}
+.info-box i {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.info-box:hover {
+    transform: scale(1.1);
+    background: #ffdd57;
+    color: #333;
+}
+    
+/* Contact Form */
+.contact-form {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+.contact-form label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.contact-form button {
+    width: 100%;
+    background: #004e92;
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.contact-form button:hover {
+    background: #ffdd57;
+    color: black;
+}
+    
+/* Footer */
+footer {
+    background: #000428;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 50px;
+}
+.socialmedia1 ul {
+    display: flex;
+    flex: 1 1 26rem;
+    list-style: none;
+    justify-content: space-between;
+    padding-top: 4rem;
+}    
+    
