@@ -56,14 +56,20 @@ body {
 /* Contact Info Boxes */
 .contact-info {
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
     margin-bottom: 30px;
 }
 .info-box {
+    flex: 1 1 250px;
+    max-width: 300px;
     background: #004e92;
     color: white;
     padding: 20px;
-    border-radius: 10px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     width: 30%;
     text-align: center;
     transition: 0.3s;

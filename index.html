@@ -14,7 +14,9 @@
     <header class="navbar">
         <h1>Accra <span>Science & IT Academy</span></h1>
         <nav>
-            <ul>
+            <div class="logo"></div>
+            <div class="hamburger" onclick="toggleMenu()">≡</div>
+            <ul class="nav-links" id="navLinks">
                 <li><a href="index.html">Home</a></li>
                 <li><a target="_blank" href="aboutus.html">About Us</a></li>
                 <li><a target="_blank" href="courses.html">Courses</a></li>
@@ -26,7 +28,7 @@
 
     <!--Hero Section-->
     <section class="hero">
-        <div class="hero-content">
+        <div class="hero-overlay">
             <h2 class="fade-in">Empowering the Future with Science and Technology</h2>
             <p>Join us and learn the skills needed to excel in Science and IT!</p>
             <a href="#" class="btn">Explore Courses</a>
@@ -69,6 +71,12 @@
             </ul>
         </div>
     </footer>
+
+    <script>
+        function toggleMenu() {
+            document.getElementById("navLinks").classList.toggle("active");
+        }
+    </script>
     
 </body>
 </html>
